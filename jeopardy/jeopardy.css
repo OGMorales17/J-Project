@@ -1,0 +1,84 @@
+body {
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 9pt;
+	background: rgb(34, 126, 229);
+	background: radial-gradient(circle, rgba(34, 126, 229, 1) 0%, rgba(10, 67, 191, 1) 100%);
+	color: white;
+}
+
+h1 {
+	font-size: 40pt;
+	color: white;
+}
+
+button {
+	background-color: #a334cf;
+	border: none;
+	border-radius: 6px;
+	font-size: 14pt;
+	letter-spacing: .7pt;
+	width: 140px;
+	height: 30px;
+	padding: 0;
+	color: white;
+}
+
+button:hover {
+	background-color: #74119c;
+}
+
+button:focus {
+	outline: none;
+}
+
+table {
+	margin: 0 auto;
+	margin-top: 0px;
+	border-radius: 4px;
+	border-collapse: separate;
+	border-spacing: 10px;
+}
+
+.not-allowed {
+	cursor: not-allowed;
+}
+
+th {
+	width: 150px;
+	height: 100px;
+	padding: 6px 25px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 20px;
+	cursor: default;
+	letter-spacing: .3pt;
+	border-radius: 4px;
+}
+
+td {
+	border-radius: 4px;
+	background-color: rgba(255, 255, 255, 0.1);
+	width: 150px;
+	height: 100px;
+	padding: 6px 20px;
+	text-align: center;
+	cursor: pointer;
+	letter-spacing: .4pt;
+}
+
+.answer {
+	background-color: rgba(0, 255, 0, 0.4);
+	font-style: italic;
+	font-size: 16px;
+}
+
+i {
+	font-size: 2rem;
+	pointer-events: none;
+}
+
+.loader {
+	font-size: 4rem;
+	margin-top: 100px;
+}
